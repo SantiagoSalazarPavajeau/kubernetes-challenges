@@ -1,0 +1,6 @@
+## Query labels with --show-labels
+kubectl get pod -owide --show-labels
+
+## set anti affinity rules 
+requiredDuringSchedulingIgnoredDuringExecution
+this will only apply when its scheduled and not after its running

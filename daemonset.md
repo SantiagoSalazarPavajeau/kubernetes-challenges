@@ -15,5 +15,7 @@
 #commands:
 command:
           - sh
+          
           - -c
+          
           - 'echo aba997ac-1c89-4d64 > /mount/config && sleep 1d'
